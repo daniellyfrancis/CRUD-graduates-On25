@@ -11,7 +11,7 @@ test('Adicionar uma graduada', () => {
 test('Atualizar dados de uma graduada', () => {
   const gerenciador = new GerenciadorGraduatesOn25();
   gerenciador.adicionarGraduada(1, "Danielly", "francisdanielly04@gmail.com", "linkedin.com/daniellyfrancis", "github.com/daniellyfrancis", "frontend");
-  gerenciador.atualizarGraduado(1, "Danielly Francis", "novemail@email.com", "linkedin.com/daniellysilva", "github.com/daniellysilva", "fullstack");
+  gerenciador.atualizarGraduada(1, "Danielly Francis", "novemail@email.com", "linkedin.com/daniellysilva", "github.com/daniellysilva", "fullstack");
   const graduadaAtualizada = gerenciador.buscarGraduadaPorId(1);
   expect(graduadaAtualizada.nome).toBe("Danielly Francis");
   expect(graduadaAtualizada.email).toBe("novemail@email.com");
