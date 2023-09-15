@@ -1,0 +1,22 @@
+{
+  "name": "crud-graduates-on25",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daniellyfrancis/CRUD-graduates-On25.git"
+  },
+  "author": "Danielly Francis Nasc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daniellyfrancis/CRUD-graduates-On25/issues"
+  },
+  "homepage": "https://github.com/daniellyfrancis/CRUD-graduates-On25#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
